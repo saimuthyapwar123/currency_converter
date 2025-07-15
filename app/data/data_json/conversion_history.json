@@ -1,0 +1,44 @@
+[
+    {
+        "amount": 100.0,
+        "from": "USD",
+        "to": "INR",
+        "converted_amount": 8300.0
+    },
+    {
+        "amount": 500.0,
+        "from": "INR",
+        "to": "USD",
+        "converted_amount": 6.02
+    },
+    {
+        "amount": 500.0,
+        "from": "USD",
+        "to": "AUD",
+        "converted_amount": 755.0
+    },
+    {
+        "amount": 150.0,
+        "from": "INR",
+        "to": "AUD",
+        "converted_amount": 2.73
+    },
+    {
+        "amount": 150.0,
+        "from": "INR",
+        "to": "RUB",
+        "converted_amount": 162.11
+    },
+    {
+        "amount": 100.0,
+        "from": "INR",
+        "to": "AED",
+        "converted_amount": 4.42
+    },
+    {
+        "amount": 100.0,
+        "from": "USD",
+        "to": "AED",
+        "converted_amount": 367.0
+    }
+]

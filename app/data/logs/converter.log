@@ -1,0 +1,27 @@
+2025-06-26 14:21:13,456 - ERROR - app.api.route - Line:22 - Unexpexted error
+Traceback (most recent call last):
+  File "D:\Projects\Currency_converter_POC\app\api\route.py", line 13, in convet_currency
+    logger.info(f"Amount converted from ( {request.amount}.{request.from_currency.upper()}) to ({result}.{request.to_currency.upper()})")
+                                                                                                 ^^^^^^
+UnboundLocalError: cannot access local variable 'result' where it is not associated with a value
+2025-06-26 14:22:47,806 - INFO - app.api.route - Line:14 - Amount converted from ( 100.0.USD) to (8300.0.INR)
+2025-06-26 14:23:36,523 - INFO - app.api.route - Line:14 - Amount converted from ( 500.0.INR) to (6.02.USD)
+2025-06-26 14:23:46,606 - INFO - app.api.route - Line:14 - Amount converted from ( 500.0.USD) to (755.0.AUD)
+2025-06-26 14:24:00,818 - INFO - app.api.route - Line:14 - Amount converted from ( 150.0.INR) to (2.73.AUD)
+2025-06-26 14:25:32,559 - INFO - route - app.api.route - Line:14 - Amount converted from ( 150.0.INR) to (2.73.AUD)
+2025-06-26 14:26:37,815 - ERROR - route - app.api.route - Line:23 - Unexpexted error
+Traceback (most recent call last):
+  File "D:\Projects\Currency_converter_POC\app\api\route.py", line 13, in convet_currency
+    logger.info(f"Amount converted from ( {request.amount}.{request.from_currency.upper()}) to ({result}.{request.to_currency.upper()})")
+                                                                                                 ^^^^^^
+UnboundLocalError: cannot access local variable 'result' where it is not associated with a value
+2025-06-26 14:27:47,490 - INFO - route - app.api.route - Line:14 - Amount converted from ( 150.0.INR) to (162.11.RUB)
+2025-06-26 14:28:06,222 - INFO - route - app.api.route - Line:14 - Amount converted from ( 10.0.INR) to (0.44.AED)
+2025-06-26 14:28:14,011 - INFO - route - app.api.route - Line:14 - Amount converted from ( 100.0.INR) to (4.42.AED)
+2025-06-26 14:28:25,254 - INFO - route - app.api.route - Line:14 - Amount converted from ( 100.0.USD) to (367.0.AED)
+2025-06-30 10:26:11,404 - INFO - route - app.api.route - Line:28 - All converted Currency are Loaded
+2025-06-30 10:27:29,630 - INFO - route - app.api.route - Line:28 - All converted Currency are Loaded
+2025-06-30 10:33:18,320 - INFO - route - app.api.route - Line:29 - All converted Currency are Loaded
+2025-06-30 10:34:57,845 - INFO - route - app.api.route - Line:29 - All converted Currency are Loaded
+2025-06-30 10:35:36,902 - INFO - route - app.api.route - Line:29 - All converted Currency are Loaded
+2025-06-30 10:35:40,234 - INFO - route - app.api.route - Line:29 - All converted Currency are Loaded

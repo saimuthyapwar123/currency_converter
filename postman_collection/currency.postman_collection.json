@@ -1,0 +1,90 @@
+{
+	"info": {
+		"_postman_id": "aeba3443-6e48-42ee-a183-a94a21c68d17",
+		"name": "currency",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44761608",
+		"_collection_link": "https://prasad-666947.postman.co/workspace/prasad's-Workspace~94b7bbad-5b40-4f0b-8e97-62d59a0c04c4/collection/44761608-aeba3443-6e48-42ee-a183-a94a21c68d17?action=share&source=collection_link&creator=44761608"
+	},
+	"item": [
+		{
+			"name": "converter",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"amount\": 100,\r\n  \"from_currency\": \"usd\",\r\n  \"to_currency\": \"AED\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/currency/convert",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"currency",
+						"convert"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Load currencies",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"amount\": 100,\r\n  \"from_currency\": \"usd\",\r\n  \"to_currency\": \"AED\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/currency/get_currencies",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"currency",
+						"get_currencies"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
